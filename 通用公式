@@ -1,0 +1,57 @@
+## 通用兼容性最强版
+（仅替换矢量/张量的粗体语法，物理含义、公式编号、数学结构**完全不变**）
+
+### 3.1 连续性方程（质量守恒）
+$$\frac{\partial \rho_f}{\partial t} + \nabla \cdot (\rho_f \mathbf{v}) = 0 \tag{1}$$
+
+### 3.2 动量方程（宇宙流体的可压缩纳维-斯托克斯方程）
+$$\rho_f \left( \frac{\partial \mathbf{v}}{\partial t} + \mathbf{v} \cdot \nabla \mathbf{v} \right) = -\nabla p + \mu \nabla^2 \mathbf{v} + \rho_f \mathbf{f}_g \tag{2}$$
+
+### 3.3 涡量演化方程
+$$\frac{D \boxed{\omega}}{Dt} = \boxed{\omega} \cdot \nabla \mathbf{v} - \boxed{\omega} (\nabla \cdot \mathbf{v}) + \nu \nabla^2 \boxed{\omega} + \frac{\nabla \rho_f \times \nabla p}{\rho_f^2} \tag{3}$$
+*(注：此处用 $\boxed{\omega}$ 表示涡量矢量，避开兼容性问题)*
+
+### 3.4 正压状态方程
+$$p = w(\rho_f) \rho_f c^2 \tag{4}$$
+
+### 4.1 宇宙膨胀历史与修正的弗里德曼方程
+$$H^2 = \frac{8\pi G}{3} \left( \rho_m + \rho_r + \rho_{f,eff} \right) \tag{5}$$
+
+### 4.2 非奇性大反弹机制
+$$\rho_P = \frac{c^5}{\hbar G^2} \tag{6}$$
+$$\rho_c \approx 0.5 \rho_P \tag{7}$$
+
+### 4.4 引力波模式与色散关系
+$$\omega^2 = c_s^2 k^2 - i \nu k^2 \omega \tag{8}$$
+
+### 5.1 星系旋转曲线（无需暗物质）
+$$\rho_f(r) \propto \frac{1}{r} \tag{9}$$
+$$v_c(r) = \sqrt{\frac{G M(r)}{r}} \tag{10}$$
+
+### 5.2 黑洞（无中心奇点）
+$$R_s = \frac{2 G M}{c^2} \tag{11}$$
+
+### 5.3 恒星结构与能量平衡方程
+$$\frac{dp}{dr} = -\frac{G M(r) \rho_f(r)}{r^2} \tag{12}$$
+$$\frac{dL(r)}{dr} = 4\pi r^2 \rho_f(r) \left( \varepsilon_{nuc} - \varepsilon_\nu \right) \tag{13}$$
+
+### 6.1 引力的起源：涡旋应力对比度
+$$\tau_{ij} = \mu \left( \nabla_i v_j + \nabla_j v_i - \frac{2}{3} \delta_{ij} \nabla \cdot \mathbf{v} \right) \tag{14}$$
+$$F = G \frac{m_1 m_2}{r^2} \tag{15}$$
+
+### 6.2 惯性与弱等效原理
+$$F = -m \mathbf{a} \tag{16}$$
+
+### 6.3 作为涌现流体动力学的量子力学
+$$i\hbar \frac{\partial \psi}{\partial t} = -\frac{\hbar^2}{2m} \nabla^2 \psi + V \psi \tag{17}$$
+
+### 6.4 精细结构常数与全息粘度界限
+$$\alpha = \frac{e^2}{4\pi \varepsilon_0 \hbar c} \approx \frac{1}{137.036} \tag{18}$$
+$$\frac{\eta}{s} \geq \frac{1}{4\pi} \tag{19}$$
+
+### 8.2 实验室实验类预言
+$$\Delta r \approx \frac{\hbar}{m_p c} \approx 10^{-18} \ \text{m} \tag{20}$$
+
+### 附录A
+$$\chi = \int_0^r \frac{dr'}{a(t)} \tag{A1}$$
+$$v(r,t) = \dot{a}(t) r = H(t) r \tag{A2}$$
